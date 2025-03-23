@@ -37,6 +37,11 @@ body {
   box-shadow: 0px 1px 2px 0 rgb(0 0 0 / 0.06), 0px 1px 3px 0 rgb(0 0 0 / 0.1);
 }
 
+.card__content {
+  width: 340px;
+  height: 216px;
+}
+
 .card__image {
   align-self: stretch;
   height: 288px;
@@ -99,6 +104,7 @@ body {
   font-size: 16px;
   color: #525252;
   margin: 0;
+  line-height: 24px;
 }
 
 .card-footer {
@@ -118,6 +124,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   color: #4338ca;
+  line-height: 24px;
 }
 
 .card-footer img {
